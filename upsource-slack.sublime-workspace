@@ -1,0 +1,473 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"va",
+				"valueElement"
+			],
+			[
+				"ele",
+				"elements"
+			],
+			[
+				"to",
+				"to_html"
+			],
+			[
+				"re",
+				"req	require \"..\""
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 387.0,
+		"last_filter": "blame",
+		"selected_items":
+		[
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"xml",
+				"json2xml pretty"
+			],
+			[
+				"forma",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"delete tr",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"git",
+				"Git: Blame"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rnair/codebase/workspace/repos/upsource-slack-api-adapter"
+	],
+	"file_history":
+	[
+		"/Users/rnair/Desktop/Translations.txt",
+		"/Users/rnair/Desktop/mails.txt",
+		"/Users/rnair/codebase/workspace/repos/ClassicProgrammerPaintings/react/app/data.js",
+		"/Users/rnair/codebase/acx/field/checklists/lib/tasks/package.rake",
+		"/Users/rnair/codebase/acx/field/checklists/package/app/after-install.sh",
+		"/Users/rnair/codebase/acx/field/checklists/package/app/deployed/usr/lib/systemd/system/puma.service",
+		"/Users/rnair/codebase/acx/field/checklists/Gemfile",
+		"/Users/rnair/codebase/acx/field/checklists/package/app/before-install.sh",
+		"/Users/rnair/Desktop/Sample Tunnelblick VPN Configuration/config.ovpn",
+		"/Users/rnair/Downloads/GoT - S06E01.srt",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/models/event/create_checklist_event.rb",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/models/command/create_template_command.rb",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/resources/commands_resource.rb",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/models/command/create_checklist_command.rb",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/factories/command_factory.rb",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/models/user.rb",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/models/event/create_template_event.rb",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/models/command/base_command.rb",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/version.rb",
+		"/Users/rnair/codebase/acx/field/checklists/spec/unit/lib/checklists/resources/checklists_resource_spec.rb",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/resources/checklists_resource.rb",
+		"/Users/rnair/codebase/acx/field/checklists/spec/unit/lib/checklists/models/checklist_repository_spec.rb",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/models/checklist_repository.rb",
+		"/Users/rnair/codebase/acx/field/checklists/spec/integration/lib/checklists/resources/checklists_resource_spec.rb",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/resources/checklist_resource.rb",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/app.rb",
+		"/Users/rnair/codebase/acx/field/checklists/assets/WebViewer/lib/WebViewer.js",
+		"/Users/rnair/codebase/acx/field/checklists/assets/webviewer/lib/html5/ReaderControl.js",
+		"/Users/rnair/codebase/acx/field/checklists/assets/WebViewer/lib/config.js",
+		"/Users/rnair/codebase/acx/field/checklists/assets/docs/index.html",
+		"/Users/rnair/Downloads/thumbs.rb",
+		"/Users/rnair/codebase/acx/field/checklists/assets/webviewer/lib/html5/doc/symbols/Tools.SignatureCreateTool.html",
+		"/Users/rnair/Desktop/McB/basic_scope.txt",
+		"/Users/rnair/codebase/acx/field/checklists/assets/docs/sample_form_fields_env3.xml",
+		"/Users/rnair/codebase/acx/field/checklists/assets/webviewer/lib/html5/defaultScriptExtension.js",
+		"/Users/rnair/codebase/acx/field/field-management/tools/failed-mail/fetch-failed-mail-details.sh",
+		"/Users/rnair/codebase/acx/field/checklists/assets/docs/sample_form_fields.xml",
+		"/Users/rnair/codebase/acx/field/checklists/assets/WebViewer/lib/html5/ReaderControl.js",
+		"/Users/rnair/codebase/acx/field/checklists/assets/WebViewer/samples/form-actions/config.js",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/resources/base_resource.rb",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/resources/version_resource.rb",
+		"/Users/rnair/codebase/acx/field/checklists/assets/docs/WebViewer/lib/WebViewer.js",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/resources/test_status_resource.rb",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/pdf/pd4ml.rb",
+		"/Users/rnair/codebase/acx/field/checklists/.docker.env",
+		"/Users/rnair/codebase/acx/field/tmp/PDF-Report-7380decd-0508-49ea-a58f-96fe2f5c2375/index.html",
+		"/Users/rnair/codebase/acx/field/checklists/Rakefile",
+		"/Users/rnair/codebase/acx/field/checklists/lib/tasks/plpgsql.rake",
+		"/Users/rnair/codebase/acx/field/checklists/db/structure.sql",
+		"/Users/rnair/codebase/acx/field/checklists/db/migrate/20150417033658_update_salesforce_procs.rb",
+		"/Users/rnair/codebase/acx/field/checklists/db/migrate/20150227074644_create_salesforce_extract_checklists.rb",
+		"/Users/rnair/codebase/acx/field/checklists/README.md",
+		"/Users/rnair/codebase/acx/field/checklists/config.ru",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists.rb",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/models/checklist_aggregator.rb",
+		"/Users/rnair/codebase/acx/field/checklists/lib/checklists/resources/projects_resource.rb",
+		"/Users/rnair/codebase/acx/field/checklists/.dev.puma.rb"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"*.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"init",
+			"shared",
+			"value><",
+			"no_",
+			"no_li",
+			"CHECKLISTS_FETCH_SIZE",
+			"limit",
+			"MAX_LIMIT",
+			"noLimit",
+			"toolModeMap",
+			"getElement",
+			">\n",
+			"project_name",
+			">\n",
+			"project_name",
+			"setToolbarVisibility",
+			"control",
+			"hide",
+			"hideSidePanel",
+			"pdf-info",
+			"pdf",
+			"\\n\\n",
+			"\\n\\n\\n",
+			"SS",
+			"field=\"pro",
+			"title",
+			"widget",
+			"V",
+			"'V'",
+			"viewerLoaded",
+			"widget",
+			"title",
+			"getWidget",
+			"form1",
+			"PDFTron.WebViewer",
+			"readercontrol",
+			"')\n",
+			"asset",
+			"BaseResource",
+			"img",
+			"render_html",
+			"render_pdf",
+			"PDF",
+			"create",
+			"PDF-Report-7380decd-0508-49ea-a58f-96fe2f5c2375/PDF-Report-7380decd-0508-49ea-a58f-96fe2f5c2375",
+			"var/tmp/acxfm",
+			"'\n",
+			"usp_reportfmchecklists",
+			"after_success",
+			"LOAD_PATH"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n",
+			"PDF-Report-7380decd-0508-49ea-a58f-96fe2f5c2375",
+			"Users/rnair/codebase/acx/field/tmp/PDF-Report-7380decd-0508-49ea-a58f-96fe2f5c2375"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "upsource-slack.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"after",
+				"package/app/after-install.sh"
+			],
+			[
+				".service",
+				"package/app/deployed/usr/lib/systemd/system/puma.service"
+			],
+			[
+				"pac",
+				"lib/tasks/package.rake"
+			],
+			[
+				"gemfil",
+				"Gemfile"
+			],
+			[
+				"cretae_checkeven",
+				"lib/checklists/models/event/create_checklist_event.rb"
+			],
+			[
+				"cretecheck",
+				"lib/checklists/models/command/create_checklist_command.rb"
+			],
+			[
+				"user",
+				"lib/checklists/models/user.rb"
+			],
+			[
+				"commandfac",
+				"lib/checklists/factories/command_factory.rb"
+			],
+			[
+				"basecommand",
+				"lib/checklists/models/command/base_command.rb"
+			],
+			[
+				"createtemplateeve",
+				"lib/checklists/models/event/create_template_event.rb"
+			],
+			[
+				"createtempla",
+				"lib/checklists/models/command/create_template_command.rb"
+			],
+			[
+				"createtemplate",
+				"lib/checklists/models/command/create_template_command.rb"
+			],
+			[
+				"comma",
+				"lib/checklists/resources/commands_resource.rb"
+			],
+			[
+				"version",
+				"lib/checklists/version.rb"
+			],
+			[
+				"checklistrepository",
+				"spec/unit/lib/checklists/models/checklist_repository_spec.rb"
+			],
+			[
+				"checklistsresource",
+				"spec/unit/lib/checklists/resources/checklists_resource_spec.rb"
+			],
+			[
+				"checkresou",
+				"lib/checklists/resources/checklists_resource.rb"
+			],
+			[
+				"checkrepo",
+				"lib/checklists/models/checklist_repository.rb"
+			],
+			[
+				"signaturecreate",
+				"assets/webviewer/lib/html5/doc/symbols/Tools.SignatureCreateTool.html"
+			],
+			[
+				"defaultscriptextension",
+				"assets/webviewer/lib/html5/defaultScriptExtension.js"
+			],
+			[
+				"readercontrol.js",
+				"assets/WebViewer/lib/html5/ReaderControl.js"
+			],
+			[
+				"webviewer",
+				"assets/WebViewer/lib/WebViewer.js"
+			],
+			[
+				"config.js",
+				"assets/WebViewer/samples/form-actions/config.js"
+			],
+			[
+				"ver",
+				"lib/checklists/resources/version_resource.rb"
+			],
+			[
+				"app",
+				"lib/checklists/app.rb"
+			],
+			[
+				"docker",
+				".docker.env"
+			],
+			[
+				"pd4ml",
+				"lib/checklists/pdf/pd4ml.rb"
+			],
+			[
+				"stru",
+				"db/structure.sql"
+			],
+			[
+				"20150417033658_update_salesforce_procs.rb",
+				"db/migrate/20150417033658_update_salesforce_procs.rb"
+			],
+			[
+				"str",
+				"db/structure.sql"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"con",
+				"config.ru"
+			],
+			[
+				"checkliaggr",
+				"lib/checklists/models/checklist_aggregator.rb"
+			],
+			[
+				"projects_resource.rb",
+				"lib/checklists/resources/projects_resource.rb"
+			],
+			[
+				"",
+				".dev.puma.rb"
+			],
+			[
+				"readm",
+				"README.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/codebase/acx/field/checklists-deployment/checklists-deployment.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 904.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 280.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
