@@ -1,0 +1,15 @@
+{
+  "majorVersion": 3,
+  "minorVersion": 0,
+  "projectId": "field-management",
+  "dataType": "NewRevisionEventBean",
+  "data": {
+    "revisionId": "75828ca74a3a0f22efd158b69d48dee1120c04d3",
+    "branches": [
+      "master"
+    ],
+    "author": "Ramsey <ramsey@got.com>",
+    "message": "IMG-5988 | Show photo count only when we pass the label\n\n- This is will not take the unnecessary bottom space\nwhen we don't pass the label",
+    "date": 1467380325000
+  }
+}
