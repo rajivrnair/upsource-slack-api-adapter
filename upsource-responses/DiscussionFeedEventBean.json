@@ -1,0 +1,39 @@
+{
+  "majorVersion": 3,
+  "minorVersion": 0,
+  "projectId": "field-management",
+  "dataType": "DiscussionFeedEventBean",
+  "data": {
+    "base": {
+      "userIds": [
+        {
+          "userId": "43b8f2ee-172d-46a6-a4c5-a2a238823784",
+          "userName": "Jon Snow",
+          "userEmail": "jon.snow@got.com"
+        },
+        {
+          "userId": "0768c1bb-fcf7-463f-bf8c-2980168ff46c",
+          "userName": "Jamie Lanister",
+          "userEmail": "jamie.lanister@got.com"
+        },
+        {
+          "userId": "13e3b282-8d1f-451d-a2ed-b4bb2c1de4ec",
+          "userName": "Joffrey",
+          "userEmail": "joffrey@got.com"
+        }
+      ],
+      "reviewNumber": 13,
+      "date": 1467614747498,
+      "actor": {
+        "userId": "0768c1bb-fcf7-463f-bf8c-2980168ff46c",
+        "userName": "Jamie Lanister",
+        "userEmail": "jamie.lanister@got.com"
+      },
+      "feedEventId": "1467614747498#field-management#9d2a13b6-8ef3-4e15-99e9-473c393d5779"
+    },
+    "notificationReason": 0,
+    "discussionId": "1467614747495#field-management#7accef6d-aa71-431d-bc65-2eec659e35a6",
+    "commentId": "15e22a2d-2bd9-4aff-871b-f8e14a93b6b9",
+    "commentText": "Looks good."
+  }
+}
