@@ -6,20 +6,20 @@
    { base: 
       { userIds: 
          [ { userId: '43b8f2ee-172d-46a6-a4c5-a2a238823784',
-             userName: 'Varun',
-             userEmail: 'vsubramanian@aconex.com' },
+             userName: 'Jon Snow',
+             userEmail: 'jon.snow@got.com' },
            { userId: '0768c1bb-fcf7-463f-bf8c-2980168ff46c',
-             userName: 'Deepak',
-             userEmail: 'dmichael@aconex.com' },
+             userName: 'Jamie Lanister',
+             userEmail: 'jamie.lanister@got.com' },
            { userId: '13e3b282-8d1f-451d-a2ed-b4bb2c1de4ec',
-             userName: 'Rajiv',
-             userEmail: 'rnair@aconex.com' } ],
+             userName: 'Joffrey',
+             userEmail: 'joffrey@got.com' } ],
         reviewNumber: 13,
         date: 1467614747498,
         actor: 
          { userId: '0768c1bb-fcf7-463f-bf8c-2980168ff46c',
-           userName: 'Deepak',
-           userEmail: 'dmichael@aconex.com' },
+           userName: 'Jamie Lanister',
+           userEmail: 'jamie.lanister@got.com' },
         feedEventId: '1467614747498#field-management#9d2a13b6-8ef3-4e15-99e9-473c393d5779' },
      notificationReason: 0,
      discussionId: '1467614747495#field-management#7accef6d-aa71-431d-bc65-2eec659e35a6',
@@ -34,22 +34,22 @@
    { base: 
       { userIds: 
          [ { userId: '43b8f2ee-172d-46a6-a4c5-a2a238823784',
-             userName: 'Varun',
-             userEmail: 'vsubramanian@aconex.com' },
+             userName: 'Jon Snow',
+             userEmail: 'jon.snow@got.com' },
            { userId: '13e3b282-8d1f-451d-a2ed-b4bb2c1de4ec',
-             userName: 'Rajiv',
-             userEmail: 'rnair@aconex.com' } ],
+             userName: 'Joffrey',
+             userEmail: 'joffrey@got.com' } ],
         reviewNumber: 13,
         date: 1467614758738,
         actor: 
          { userId: '0768c1bb-fcf7-463f-bf8c-2980168ff46c',
-           userName: 'Deepak',
-           userEmail: 'dmichael@aconex.com' },
+           userName: 'Jamie Lanister',
+           userEmail: 'jamie.lanister@got.com' },
         feedEventId: '1467614758738#field-management#2c29ad78-1adc-4bc3-9aa9-421274943d7e' },
      participant: 
       { userId: '0768c1bb-fcf7-463f-bf8c-2980168ff46c',
-        userName: 'Deepak',
-        userEmail: 'dmichael@aconex.com' },
+        userName: 'Jamie Lanister',
+        userEmail: 'jamie.lanister@got.com' },
      oldState: 1,
      newState: 2 } }
 
@@ -60,7 +60,7 @@
   data: 
    { revisionId: '75828ca74a3a0f22efd158b69d48dee1120c04d3',
      branches: [ 'master' ],
-     author: 'Vinoth <vkuppusamy@aconex.com>',
+     author: 'Ramsey <ramsey@got.com>',
      message: 'IMG-5988 | Show photo count only when we pass the label\n\n- This is will not take the unnecessary bottom space\nwhen we don\'t pass the label',
      date: 1467380325000 } }
 { majorVersion: 3,
@@ -70,7 +70,7 @@
   data: 
    { revisionId: '5a1296d1217bb20a6941ac4d49a621a707898069',
      branches: [ 'master' ],
-     author: 'Vinoth <vkuppusamy@aconex.com>',
+     author: 'Ramsey <ramsey@got.com>',
      message: 'IMG-5988 | Align the close icon according to the navigation icon and remove the outline',
      date: 1467612439000 } }
 
@@ -81,7 +81,7 @@
   data: 
    { revisionId: 'a574918cba6d71932957baf5f625fc5bf88d2bc7',
      branches: [ 'master' ],
-     author: 'Vinoth <vkuppusamy@aconex.com>',
+     author: 'Ramsey <ramsey@got.com>',
      message: 'IMG-5988 | Show issue photo in the issue details page\n\n- Remove the UI feature toggle',
      date: 1467613507000 } }
 
@@ -93,22 +93,22 @@
    { base: 
       { userIds: 
          [ { userId: '43b8f2ee-172d-46a6-a4c5-a2a238823784',
-             userName: 'Varun',
-             userEmail: 'vsubramanian@aconex.com' },
+             userName: 'Jon Snow',
+             userEmail: 'jon.snow@got.com' },
            { userId: '0768c1bb-fcf7-463f-bf8c-2980168ff46c',
-             userName: 'Deepak',
-             userEmail: 'dmichael@aconex.com' } ],
+             userName: 'Jamie Lanister',
+             userEmail: 'jamie.lanister@got.com' } ],
         reviewNumber: 13,
         date: 1467617047744,
         actor: 
          { userId: '13e3b282-8d1f-451d-a2ed-b4bb2c1de4ec',
-           userName: 'Rajiv',
-           userEmail: 'rnair@aconex.com' },
+           userName: 'Joffrey',
+           userEmail: 'joffrey@got.com' },
         feedEventId: '1467617047743#field-management#df74eec1-b295-4f9c-a93e-40a0ab899610' },
      participant: 
       { userId: '13e3b282-8d1f-451d-a2ed-b4bb2c1de4ec',
-        userName: 'Rajiv',
-        userEmail: 'rnair@aconex.com' },
+        userName: 'Joffrey',
+        userEmail: 'joffrey@got.com' },
      oldState: 1,
      newState: 3 } }
 
@@ -120,17 +120,17 @@
    { base: 
       { userIds: 
          [ { userId: '43b8f2ee-172d-46a6-a4c5-a2a238823784',
-             userName: 'Varun',
-             userEmail: 'vsubramanian@aconex.com' },
+             userName: 'Jon Snow',
+             userEmail: 'jon.snow@got.com' },
            { userId: '0768c1bb-fcf7-463f-bf8c-2980168ff46c',
-             userName: 'Deepak',
-             userEmail: 'dmichael@aconex.com' } ],
+             userName: 'Jamie Lanister',
+             userEmail: 'jamie.lanister@got.com' } ],
         reviewNumber: 13,
         date: 1467617050832,
         actor: 
          { userId: '13e3b282-8d1f-451d-a2ed-b4bb2c1de4ec',
-           userName: 'Rajiv',
-           userEmail: 'rnair@aconex.com' },
+           userName: 'Joffrey',
+           userEmail: 'joffrey@got.com' },
         feedEventId: '1467617050832#field-management#ad831fee-7d5c-470c-90bd-6cfc68b7f80a' },
      oldState: 0,
      newState: 1 } }
@@ -143,17 +143,17 @@
    { base: 
       { userIds: 
          [ { userId: '43b8f2ee-172d-46a6-a4c5-a2a238823784',
-             userName: 'Varun',
-             userEmail: 'vsubramanian@aconex.com' },
+             userName: 'Jon Snow',
+             userEmail: 'jon.snow@got.com' },
            { userId: '0768c1bb-fcf7-463f-bf8c-2980168ff46c',
-             userName: 'Deepak',
-             userEmail: 'dmichael@aconex.com' } ],
+             userName: 'Jamie Lanister',
+             userEmail: 'jamie.lanister@got.com' } ],
         reviewNumber: 13,
         date: 1467617111892,
         actor: 
          { userId: '13e3b282-8d1f-451d-a2ed-b4bb2c1de4ec',
-           userName: 'Rajiv',
-           userEmail: 'rnair@aconex.com' },
+           userName: 'Joffrey',
+           userEmail: 'joffrey@got.com' },
         feedEventId: '1467617111892#field-management#fe717d1d-5020-49c6-bb81-8348682d7710' },
      oldState: 1,
      newState: 0 } }
@@ -166,14 +166,14 @@
    { base: 
       { userIds: 
          [ { userId: '43b8f2ee-172d-46a6-a4c5-a2a238823784',
-             userName: 'Varun',
-             userEmail: 'vsubramanian@aconex.com' } ],
+             userName: 'Jon Snow',
+             userEmail: 'jon.snow@got.com' } ],
         reviewNumber: 13,
         date: 1467614423003,
         actor: 
          { userId: '13e3b282-8d1f-451d-a2ed-b4bb2c1de4ec',
-           userName: 'Rajiv',
-           userEmail: 'rnair@aconex.com' },
+           userName: 'Joffrey',
+           userEmail: 'joffrey@got.com' },
         feedEventId: '1467614423002#field-management#4b489a2f-0409-4121-a680-fa5620344143' },
      revisions: [ 'a0f6463f7e70218325de64c222a7ece130f0053a' ] } }
 ​
@@ -186,20 +186,20 @@
    { base: 
       { userIds: 
          [ { userId: '43b8f2ee-172d-46a6-a4c5-a2a238823784',
-             userName: 'Varun',
-             userEmail: 'vsubramanian@aconex.com' },
+             userName: 'Jon Snow',
+             userEmail: 'jon.snow@got.com' },
            { userId: '0768c1bb-fcf7-463f-bf8c-2980168ff46c',
-             userName: 'Deepak',
-             userEmail: 'dmichael@aconex.com' } ],
+             userName: 'Jamie Lanister',
+             userEmail: 'jamie.lanister@got.com' } ],
         reviewNumber: 13,
         date: 1467614434431,
         actor: 
          { userId: '13e3b282-8d1f-451d-a2ed-b4bb2c1de4ec',
-           userName: 'Rajiv',
-           userEmail: 'rnair@aconex.com' },
+           userName: 'Joffrey',
+           userEmail: 'joffrey@got.com' },
         feedEventId: '1467614434431#field-management#671a8924-652b-41a3-854e-8ae278af5927' },
      participant: 
       { userId: '0768c1bb-fcf7-463f-bf8c-2980168ff46c',
-        userName: 'Deepak',
-        userEmail: 'dmichael@aconex.com' },
+        userName: 'Jamie Lanister',
+        userEmail: 'jamie.lanister@got.com' },
      role: 2 } }
