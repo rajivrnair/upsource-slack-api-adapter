@@ -1,61 +1,6 @@
 { majorVersion: 3,
   minorVersion: 0,
   projectId: 'field-management',
-  dataType: 'DiscussionFeedEventBean',
-  data: 
-   { base: 
-      { userIds: 
-         [ { userId: '43b8f2ee-172d-46a6-a4c5-a2a238823784',
-             userName: 'Jon Snow',
-             userEmail: 'jon.snow@got.com' },
-           { userId: '0768c1bb-fcf7-463f-bf8c-2980168ff46c',
-             userName: 'Jamie Lanister',
-             userEmail: 'jamie.lanister@got.com' },
-           { userId: '13e3b282-8d1f-451d-a2ed-b4bb2c1de4ec',
-             userName: 'Joffrey',
-             userEmail: 'joffrey@got.com' } ],
-        reviewNumber: 13,
-        date: 1467614747498,
-        actor: 
-         { userId: '0768c1bb-fcf7-463f-bf8c-2980168ff46c',
-           userName: 'Jamie Lanister',
-           userEmail: 'jamie.lanister@got.com' },
-        feedEventId: '1467614747498#field-management#9d2a13b6-8ef3-4e15-99e9-473c393d5779' },
-     notificationReason: 0,
-     discussionId: '1467614747495#field-management#7accef6d-aa71-431d-bc65-2eec659e35a6',
-     commentId: '15e22a2d-2bd9-4aff-871b-f8e14a93b6b9',
-     commentText: 'Looks good.' } }
-
-{ majorVersion: 3,
-  minorVersion: 0,
-  projectId: 'field-management',
-  dataType: 'ParticipantStateChangedFeedEventBean',
-  data: 
-   { base: 
-      { userIds: 
-         [ { userId: '43b8f2ee-172d-46a6-a4c5-a2a238823784',
-             userName: 'Jon Snow',
-             userEmail: 'jon.snow@got.com' },
-           { userId: '13e3b282-8d1f-451d-a2ed-b4bb2c1de4ec',
-             userName: 'Joffrey',
-             userEmail: 'joffrey@got.com' } ],
-        reviewNumber: 13,
-        date: 1467614758738,
-        actor: 
-         { userId: '0768c1bb-fcf7-463f-bf8c-2980168ff46c',
-           userName: 'Jamie Lanister',
-           userEmail: 'jamie.lanister@got.com' },
-        feedEventId: '1467614758738#field-management#2c29ad78-1adc-4bc3-9aa9-421274943d7e' },
-     participant: 
-      { userId: '0768c1bb-fcf7-463f-bf8c-2980168ff46c',
-        userName: 'Jamie Lanister',
-        userEmail: 'jamie.lanister@got.com' },
-     oldState: 1,
-     newState: 2 } }
-
-{ majorVersion: 3,
-  minorVersion: 0,
-  projectId: 'field-management',
   dataType: 'NewRevisionEventBean',
   data: 
    { revisionId: '75828ca74a3a0f22efd158b69d48dee1120c04d3',
@@ -177,29 +122,4 @@
         feedEventId: '1467614423002#field-management#4b489a2f-0409-4121-a680-fa5620344143' },
      revisions: [ 'a0f6463f7e70218325de64c222a7ece130f0053a' ] } }
 ​
-​
-{ majorVersion: 3,
-  minorVersion: 0,
-  projectId: 'field-management',
-  dataType: 'NewParticipantInReviewFeedEventBean',
-  data: 
-   { base: 
-      { userIds: 
-         [ { userId: '43b8f2ee-172d-46a6-a4c5-a2a238823784',
-             userName: 'Jon Snow',
-             userEmail: 'jon.snow@got.com' },
-           { userId: '0768c1bb-fcf7-463f-bf8c-2980168ff46c',
-             userName: 'Jamie Lanister',
-             userEmail: 'jamie.lanister@got.com' } ],
-        reviewNumber: 13,
-        date: 1467614434431,
-        actor: 
-         { userId: '13e3b282-8d1f-451d-a2ed-b4bb2c1de4ec',
-           userName: 'Joffrey',
-           userEmail: 'joffrey@got.com' },
-        feedEventId: '1467614434431#field-management#671a8924-652b-41a3-854e-8ae278af5927' },
-     participant: 
-      { userId: '0768c1bb-fcf7-463f-bf8c-2980168ff46c',
-        userName: 'Jamie Lanister',
-        userEmail: 'jamie.lanister@got.com' },
-     role: 2 } }
+

@@ -1,0 +1,37 @@
+{
+  "majorVersion": 3,
+  "minorVersion": 0,
+  "projectId": "field-management",
+  "dataType": "ParticipantStateChangedFeedEventBean",
+  "data": {
+    "base": {
+      "userIds": [
+        {
+          "userId": "43b8f2ee-172d-46a6-a4c5-a2a238823784",
+          "userName": "Jon Snow",
+          "userEmail": "jon.snow@got.com"
+        },
+        {
+          "userId": "13e3b282-8d1f-451d-a2ed-b4bb2c1de4ec",
+          "userName": "Joffrey",
+          "userEmail": "joffrey@got.com"
+        }
+      ],
+      "reviewNumber": 13,
+      "date": 1467614758738,
+      "actor": {
+        "userId": "0768c1bb-fcf7-463f-bf8c-2980168ff46c",
+        "userName": "Jamie Lanister",
+        "userEmail": "jamie.lanister@got.com"
+      },
+      "feedEventId": "1467614758738#field-management#2c29ad78-1adc-4bc3-9aa9-421274943d7e"
+    },
+    "participant": {
+      "userId": "0768c1bb-fcf7-463f-bf8c-2980168ff46c",
+      "userName": "Jamie Lanister",
+      "userEmail": "jamie.lanister@got.com"
+    },
+    "oldState": 1,
+    "newState": 2
+  }
+}
