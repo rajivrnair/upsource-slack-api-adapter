@@ -1,6 +1,7 @@
 const config = require('./config.json');
 const axios = require('axios');
 const Adapters = require('./adapters');
+const _ = require('lodash');
 
 module.exports = {
 	talkToSlack: function(review) {
