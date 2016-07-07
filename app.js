@@ -7,7 +7,7 @@ module.exports = {
 	talkToSlack: function(review) {
 		const adapter = Adapters[review.dataType];
 
-		if (_.isEmpty(adapter)) {
+		if (_.isUndefined(adapter)) {
 			console.log(`No adapter has been registered for the event ${review.dataType}`);
 			return;
 		}
