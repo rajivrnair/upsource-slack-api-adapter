@@ -4,7 +4,7 @@ module.exports = function(review) {
 	const reviewers = _.chain(review).get('data.base.userIds', []).map('userName').value().join(', ');
 
 	return {
-		text: `Review #${review.data.base.reviewNumber}: New comment`,
+		text: `Review #${review.data.base.reviewNumber}: New comment by *${_.get(review, 'data.base.actor.userName', '')}*`,
 		attachments: [
 			{
 				fallback: `Review #${review.data.base.reviewNumber}: New comment`,
