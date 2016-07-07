@@ -12,5 +12,5 @@ Transforms Upsource webhooks to Slack compatible requests
 Tested to run on NodeJS 6. Other versions may be supported.
 
 ## Running the adapter
-Install npm dependencies by running `npm install`
-Start the application by `npm install`
+Install npm dependencies by running `npm install`   
+Start the application by executing `npm start`
