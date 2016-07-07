@@ -4,10 +4,10 @@ module.exports = function(review) {
 	const reviewers = _.chain(review).get('data.base.userIds', []).map('userName').value().join(', ');
 
 	return {
-		text: `Review #${review.data.base.reviewNumber}: Raised by *${_.get(review, 'data.base.actor.userName', '')}*`,
+		text: `Review #${review.data.base.reviewNumber}: Participants changed`,
 		attachments: [
 			{
-				fallback: `Review #${review.data.base.reviewNumber}: Raised by *${_.get(review, 'data.base.actor.userName', '')}*`,
+				fallback: `Review #${review.data.base.reviewNumber}: Participants changed`,
 				fields: [
 					{
 						title: 'Project',
@@ -20,7 +20,7 @@ module.exports = function(review) {
 						short: true
 					}
 				],
-				color: '#F35A00'
+				color: '#2AB27B'
 			}
 		]
 	}
