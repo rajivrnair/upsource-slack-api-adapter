@@ -8,7 +8,6 @@ server.use(bodyParser.json());
 
 server.post('/', function (req, res) {
   app.talkToSlack(req.body);
-  console.log(util.inspect(req.body, false, null));
   res.end();
 });
 
