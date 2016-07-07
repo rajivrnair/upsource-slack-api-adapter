@@ -1,7 +1,7 @@
 # upsource-slack-api-adapter
 Transforms Upsource webhooks to Slack compatible requests
 
-## Adapters currently supported
+## Upsource events currently supported
 * ReviewCreatedFeedEventBean
 * ReviewStateChangedFeedEventBean
 * ParticipantStateChangedFeedEventBean
