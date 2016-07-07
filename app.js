@@ -12,7 +12,7 @@ module.exports = {
 			return;
 		}
 
-		axios.post(config.slackUrl, adapter(review));
+		axios.post(config.slackWebhookUrl, adapter(review));
 	}
 };
 
