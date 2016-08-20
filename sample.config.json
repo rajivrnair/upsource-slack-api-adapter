@@ -1,0 +1,4 @@
+// Copy this to config.json and put in the correct webhook url
+{
+  "slackWebhookUrl": "http://link-to-slack-webhook"
+}
