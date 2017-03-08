@@ -7,7 +7,7 @@ var app = require('./app');
 server.use(bodyParser.json());
 
 server.post('/', function (req, res) {
-  app.talkToSlack(req.body);
+  app.talkToSlack(req.body, req.query);
   res.end();
 });
 

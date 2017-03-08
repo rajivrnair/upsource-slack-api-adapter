@@ -1,6 +1,6 @@
 const _ = require('lodash');
 
-module.exports = function(review) {
+module.exports = function(review, channel) {
 	const reviewers = _.chain(review).get('data.base.userIds', []).map('userName').value().join(', ');
 
 	return {
