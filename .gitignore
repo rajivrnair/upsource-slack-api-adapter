@@ -39,3 +39,6 @@ jspm_packages
 config.json
 .vscode
 upsource-slack.sublime-workspace
+
+# phpstorm
+.idea
