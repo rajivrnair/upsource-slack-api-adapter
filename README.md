@@ -23,8 +23,19 @@ See `sample.config.json` for an example.
 
 The application runs on port 4000. Redirect Upsource webhook to this address.
 
+## Upsource webhook configuration
+
+![Screenshot](upsource-webhooks.png)
+
+you can ommit `?channel=(.*)` parameter, in which case the notification 
+will be posted to the hook's default channel 
+
 ## Running the adapter
-Install npm dependencies by running `npm install`
-Start the application by executing `npm start`
+Copy `sample.config.json` to `config.json` and adjust webhook url, then as usual:
+
+* Install npm dependencies by running `npm install`
+* Start the application by executing `npm start`
+
+
 
 ![Screenshot](slack-upsource.png)
