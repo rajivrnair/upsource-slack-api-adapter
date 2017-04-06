@@ -1,7 +1,7 @@
 const config   = require('./config.json');
-const axios    = require('axios');
 const Adapters = require('./adapters');
 const _        = require('lodash');
+const request  = require('request');
 
 module.exports = {
 	talkToSlack: function(review, query) {
@@ -24,7 +24,18 @@ module.exports = {
 			}
 			adapted.channel = prefix+query.channel;
 		}
-		axios.post(config.slackWebhookUrl, adapted);
+
+		request({
+			url: config.slackWebhookUrl,
+			method: "POST",
+			json: true,
+			headers: {
+				"content-type": "application/json",
+			},
+			body: adapted
+		}, function(err, res, body) {
+			console.log(body);
+		});
 	}
 };
 
