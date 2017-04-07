@@ -1,4 +1,5 @@
 const _ = require('lodash');
+const config = require('../config.json');
 
 module.exports = function(review, channel) {
 	const reviewers = _.chain(review).get('data.base.userIds', []).map('userName').value().join(', ');
@@ -22,6 +23,10 @@ module.exports = function(review, channel) {
 					{
 						title: 'Comment',
 						value: review.data.commentText
+					},
+					{
+						title: 'link',
+						value: '<' + config.upsourceUrl + '/parcel/review/' + review.data.base.reviewId + '>'
 					}
 				],
 				color: '#3AA3E3'
