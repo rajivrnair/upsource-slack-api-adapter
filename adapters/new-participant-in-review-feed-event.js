@@ -22,7 +22,7 @@ module.exports = function(review) {
 					},
 					{
 						title: 'link',
-						value: '<' + config.upsourceUrl + '/parcel/review/' + review.data.base.reviewId + '>'
+						value: '<' + config.upsourceUrl + '/' + review.projectId + '/review/' + review.data.base.reviewId + '>'
 					}
 				],
 				color: '#2AB27B'
