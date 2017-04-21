@@ -26,7 +26,7 @@ module.exports = function(review, channel) {
 					},
 					{
 						title: 'link',
-						value: '<' + config.upsourceUrl + '/parcel/review/' + review.data.base.reviewId + '>'
+						value: '<' + config.upsourceUrl + '/' + review.projectId + '/review/' + review.data.base.reviewId + '>'
 					}
 				],
 				color: '#3AA3E3'
