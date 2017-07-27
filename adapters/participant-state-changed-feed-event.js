@@ -2,22 +2,25 @@ const _ = require('lodash');
 
 module.exports = function(review) {
 	const reviewers = _.chain(review).get('data.base.userIds', []).map('userName').value().join(', ');
+	const participant = review.data.participant.userName;
 	const reviewState  = {
-		0: '_Open_',
-		1: '_Closed_'
+		0: '_Unread_',
+		1: '_Read_',
+		2: '_Accepted_',
+		3: '_Rejected_'
 	};
 
 	const color = (function() {
-		if (review.data.newState === 0) return '#F35A00';
+		if (review.data.newState === 3) return '#F35A00';
 
 		return '#2AB27B'
 	});
 
 	return {
-		text: `Review #${review.data.base.reviewNumber}: Participant state changed from ${reviewState[review.data.oldState]} to ${reviewState[review.data.newState]}`,
+		text: `Review #${review.data.base.reviewNumber}: ${participant} changed state from ${reviewState[review.data.oldState]} to ${reviewState[review.data.newState]}`,
 		attachments: [
 			{
-				fallback: `Review #${review.data.base.reviewNumber}: Participant state changed from ${reviewState[review.data.oldState]} to ${reviewState[review.data.newState]}`,
+				fallback: `Review #${review.data.base.reviewNumber}: ${participant} changed state from ${reviewState[review.data.oldState]} to ${reviewState[review.data.newState]}`,
 				fields: [
 					{
 						title: 'Project',
@@ -25,7 +28,7 @@ module.exports = function(review) {
 						short: true
 					},
 					{
-						title: 'Reviewer(s)',
+						title: 'Participant(s)',
 						value: reviewers,
 						short: true
 					}
