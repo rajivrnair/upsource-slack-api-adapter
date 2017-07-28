@@ -1,0 +1,36 @@
+{
+  "majorVersion": 3,
+  "minorVersion": 0,
+  "projectId": "field-management",
+  "dataType": "RemovedParticipantInReviewFeedEventBean",
+  "data": {
+    "base": {
+      "userIds": [
+        {
+          "userId": "43b8f2ee-172d-46a6-a4c5-a2a238823784",
+          "userName": "Jon Snow",
+          "userEmail": "jon.snow@got.com"
+        },
+        {
+          "userId": "0768c1bb-fcf7-463f-bf8c-2980168ff46c",
+          "userName": "Jamie Lanister",
+          "userEmail": "jamie.lanister@got.com"
+        }
+      ],
+      "reviewNumber": 13,
+      "date": 1467614434431,
+      "actor": {
+        "userId": "13e3b282-8d1f-451d-a2ed-b4bb2c1de4ec",
+        "userName": "Joffrey",
+        "userEmail": "joffrey@got.com"
+      },
+      "feedEventId": "1467614434431#field-management#671a8924-652b-41a3-854e-8ae278af5927"
+    },
+    "participant": {
+      "userId": "0768c1bb-fcf7-463f-bf8c-2980168ff46c",
+      "userName": "Jamie Lanister",
+      "userEmail": "jamie.lanister@got.com"
+    },
+    "formerRole": 2
+  }
+}
