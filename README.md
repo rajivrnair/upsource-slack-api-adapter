@@ -6,6 +6,7 @@ Transforms Upsource webhooks to Slack compatible requests
 * ReviewStateChangedFeedEventBean
 * ParticipantStateChangedFeedEventBean
 * NewParticipantInReviewFeedEventBean
+* RemovedParticipantFromReviewFeedEventBean
 * DiscussionFeedEventBean
 
 ## Requirements

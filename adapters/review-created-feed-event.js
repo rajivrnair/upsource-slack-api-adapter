@@ -15,7 +15,7 @@ module.exports = function(review) {
 						short: true
 					},
 					{
-						title: 'Reviewer(s)',
+						title: 'Participant(s)',
 						value: reviewers,
 						short: true
 					}
