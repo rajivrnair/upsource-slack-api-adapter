@@ -13,8 +13,8 @@ module.exports = {
 			return;
 		}
 		var adapted = adapter(review);
+		var channel;
 		if(!_.isUndefined(query.channel)) {
-
 			// be compatible with parameters without a prefix. In which case we default to a general channel
 			var   prefix         = '';
 			const firstCharacter = query.channel.charAt(0);
@@ -22,20 +22,22 @@ module.exports = {
 			if(firstCharacter != '#' && firstCharacter != '@') {
 				prefix = '#';
 			}
-			adapted.channel = prefix+query.channel;
+			channel = prefix+query.channel;
 		}
 
-		request({
-			url: config.slackWebhookUrl,
-			method: "POST",
-			json: true,
-			headers: {
-				"content-type": "application/json",
-			},
-			body: adapted
-		}, function(err, res, body) {
-			console.log(body);
-		});
+		Promise.resolve(adapted).then(function(value) {
+			if(!_.isUndefined(channel)) {
+				value.channel = channel;
+			}
+			request.post(config.slackWebhookUrl, {
+				json: true,
+				body: value
+			}, function(err, res, body) {
+				console.log(body);
+			});
+		})
+		.catch(function(err) {
+			console.log(`Adapter resolved with error: ${err}`);
+		})
 	}
 };
-
