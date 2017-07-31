@@ -1,4 +1,6 @@
 {
   "slackWebhookUrl": "http://link-to-slack-webhook",
-  "upsourceUrl": "http://upsourceUrl"
+  "upsourceUrl": "http://upsourceUrl",
+  "upsourceUser": "upsource-user",
+  "upsourcePass": "upsource-pass"
 }
