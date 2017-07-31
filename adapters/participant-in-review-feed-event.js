@@ -13,6 +13,9 @@ module.exports = function(review) {
 	if(review.dataType === "RemovedParticipantFromReviewFeedEventBean") {
 		const formerRole = review.data.formerRole;
 		let participant = review.data.participant.userName;
+		if(participant === undefined) {
+			participant = review.data.participant.userId;
+		}
 		return {
 			text: `Review #${review.data.base.reviewNumber}: ${participant} is no longer a ${reviewState[formerRole]}`,
 			attachments: [
@@ -41,6 +44,9 @@ module.exports = function(review) {
 	} else if (review.dataType === "NewParticipantInReviewFeedEventBean") {
 		const role = review.data.role;
 		let participant = review.data.participant.userName;
+		if(participant === undefined) {
+			participant = review.data.participant.userId;
+		}
 		return {
 			text: `Review #${review.data.base.reviewNumber}: ${participant} is now a ${reviewState[role]}`,
 			attachments: [
