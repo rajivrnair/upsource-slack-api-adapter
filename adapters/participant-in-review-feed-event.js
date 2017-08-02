@@ -5,7 +5,7 @@ module.exports = function(review) {
 	"use strict";
 	const reviewers = _.chain(review).get('data.base.userIds', []).map('userName').value().join(', ');
 	const reviewState  = {
-		0: '_Author(?)_',
+		1: '_Author(?)_',
 		2: '_Reviewer_',
 		3: '_Watcher_'
 	};
