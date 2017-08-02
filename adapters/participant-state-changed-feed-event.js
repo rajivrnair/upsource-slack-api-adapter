@@ -1,8 +1,8 @@
 const _ = require('lodash');
 
 module.exports = function(review) {
+	"use strict";
 	const reviewers = _.chain(review).get('data.base.userIds', []).map('userName').value().join(', ');
-	const participant = review.data.participant.userName;
 	const reviewState  = {
 		0: '_Unread_',
 		1: '_Read_',
@@ -15,6 +15,11 @@ module.exports = function(review) {
 
 		return '#2AB27B'
 	});
+
+	let participant = review.data.participant.userName;
+	if(participant === undefined) {
+		participant = review.data.participant.userId;
+	}
 
 	return {
 		text: `Review #${review.data.base.reviewNumber}: ${participant} changed state from ${reviewState[review.data.oldState]} to ${reviewState[review.data.newState]}`,
