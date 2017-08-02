@@ -32,7 +32,8 @@ you can ommit `?channel=(.*)` parameter, in which case the notification
 will be posted to the hook's default channel 
 
 ## Running the adapter
-Copy `sample.config.json` to `config.json` and adjust webhook url, then as usual:
+Copy `sample.config.json` to `config.json` and adjust webhook url, upsource user and
+password, then as usual:
 
 * Install npm dependencies by running `npm install`
 * Start the application by executing `npm start`
