@@ -22,12 +22,15 @@ module.exports = function(review, channel) {
 			reject(err);
 		})
 		.on('data', function(body) {
-			let title = JSON.parse(body).result.title;
+			let url = config.upsourceUrl + '/' + review.projectId;
+			if(review.data.base.reviewId != undefined){
+				url = url + '/review/' + review.data.base.reviewId;
+			}
 			resolve({
-				text: `Review *${title}* (${review.data.base.reviewId}): New comment by *${_.get(review, 'data.base.actor.userName', '')}*`,
+				text: `New comment in your project(*${_.get(review, 'projectId', '')}*) by *${_.get(review, 'data.base.actor.userName', '')}*`,
 				attachments: [
 					{
-						fallback: `Review *${title}* (${review.data.base.reviewId}): New comment`,
+						fallback: `New comment in project`,
 						fields: [
 							{
 								title: 'Project',
@@ -45,7 +48,7 @@ module.exports = function(review, channel) {
 							},
 							{
 								title: 'link',
-								value: '<' + config.upsourceUrl + '/' + review.projectId + '/review/' + review.data.base.reviewId + '>'
+								value: '<' + url + '>'
 							}
 						],
 						color: '#3AA3E3'
