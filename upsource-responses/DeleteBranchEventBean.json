@@ -1,0 +1,9 @@
+{
+  "majorVersion": 2020,
+  "minorVersion": 1,
+  "projectId": "Zeus",
+  "dataType": "DeleteBranchEventBean",
+  "data": {
+    "name": "development"
+  }
+}
